@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: 0 none;
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url("../fonts/gilroy-medium.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffffca;
+}
+
+.header-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu {
+    width: 940px;
+    margin: 30px auto 0 auto;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 31px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+}
+
+.menu__list_item {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.menu__list_item:hover {
+    color: #f00;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.intro {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.description {
+    display: flex;
+}
+
+.name {
+    margin: 84px 0 0 130px;
+    width: 123.51px;
+    height: 118.17px;
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+
+.short-facts {
+    display: flex;
+    flex-direction: column;
+    margin: 94px 0 0 297px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.intro-image {
+    display: flex;
+    width: 945px;
+    height: 500px;
+    margin: 50px auto 0 auto;
+}
+
+.about-me {
+    height: 506px;
+    background-color: #F6F6F6;
+    display: flex;
+}
+
+.about-me-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 84px auto 0 auto;
+    height: 278px;
+}
+
+.about-me-description__title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about-me-description__subtitle {
+    margin-top: 17px;
+    width: 485px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.skills {
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-description {
+    display: flex;
+    flex-direction: column;
+    margin: 91px auto 0 auto;
+}
+
+.skills-description__title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.skills-description__subtitle {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 69px;
+}
+
+.programs {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    margin: 83px auto 0 auto;
+}
+
+.programs__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.programs__icon {
+    height: 146px;
+    width: 146px;
+}
+
+.programs__name {
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-top: 24px;
+}
+
+.programs__level {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    margin-top: 40px;
+}
+
+.portfolio {
+    height: 2253px;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+}
+
+.porfolio__title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin: 84px auto 0 auto;
+}
+
+.examples {
+    margin: 47px auto 0 auto;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    margin-top: 99px;
+}
+
+.example:first-child {
+    margin-top: 0;
+}
+
+.example__image {
+    width: 936px;
+    height: 510px;
+}
+
+.example__title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.example__title:hover {
+    color: #f00;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 114px 0;
+}
+
+.contacts {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.answer {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 20px;
+}
+
+.social {
+    margin: 80px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.social * {
+    width: 30px;
+    height: 30px;
+}
+.social *:hover{
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
